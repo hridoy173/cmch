@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CMC Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- slik slider  -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .bn {
+            display: none; 
+        }
+  
+        .toggleButton {
+            padding:2px 5px;
+            background-color:#fff;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- header section start  -->
+    <header class="header">
+
+
+       <div class="conatiner header-3">
+            <div class="container manubar">
+
+                <span>
+                    <i class="fas fa-phone-square"></i> +91 8787898700
+                    <i class="fas fa-envelope"></i> info@cmch.gov.bd
+                </span>
+
+               
+                <!-- <span>
+                   <a href=""> <i class="fas fa-user-md"></i></a>
+                   <a href=""><i class="fa fa-ambulance"></i></a> 
+                    <a href=""><i class="fa fa-heart"></i></a>    
+                </span>  -->
+
+                <span>
+                    <button id="toggleButton" class="toggleButton" onclick="toggleContent()">Bangla</button>
+                </span>
+
+            </div>
+
+        </div> 
+
+
+
+        <div class=" header-1">
+
+            <div class="container">
+                <div class=" row">
+                    <div class="col-left col-1">
+                        <a href="">
+                            <img src="img/logo.png"  alt="">
+                        </a>
+                    </div>
+    
+                    <div class="col col-10">
+                        <h2 class="en"  id="header_title">Chittagong Medical Collage Hospital</h2>
+                        <h2 class="bn"  id="header_title">চট্টগ্রাম মেডিকেল কলেজ হাসপাতাল</h2>
+                    </div>
+    
+                    <div class="col-right col-1">
+                        <a href="">
+                            <img src="img/gh2.png"  alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="header-2">
+  
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="menu_icon"  data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                     <img src="img/manuicon.png" alt="">
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a class="nav-link en " href="#">Home</a>
+                                <a class="nav-link bn" href="#">হোম</a>
+
+                            </li>
+
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button">
+                                    Health Care <i class="fa fa-sort-desc" ></i>
+                                </a>  
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button">
+								স্বাস্থ্য সেবা <i class="fa fa-sort-desc" ></i>
+                            </a> 
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Wards</a></li>
+                                    <li><a class="dropdown-item" href="#">Therapy Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Child Development</a></li>
+                                    <li><a class="dropdown-item" href="#">Others</a></li>
+                                    <li><a class="dropdown-item" href="#">HIB Center</a></li>
+                                </ul>
+                            </li>                        
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button"> 
+                                   Department<i class="fa fa-sort-desc" ></i>       
+                                </a>
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button"> 
+										বিভাগ<i class="fa fa-sort-desc" ></i>       
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">Administration</a></li>
+                                    <li><a class="dropdown-item" href="#">Child Health Care</a></li>
+                                    <li><a class="dropdown-item" href="#">Gynaecology</a></li>
+                                    <li><a class="dropdown-item" href="#">Emergency</a></li>
+                                    <li><a class="dropdown-item" href="#">Medicine</a></li>
+                                    <li><a class="dropdown-item" href="#">Heart disease</a></li>
+                                    <li><a class="dropdown-item" href="#">Anesthesia</a></li>
+                                    <li><a class="dropdown-item" href="#">Ortho surgery</a></li>
+                                    <li><a class="dropdown-item" href="#">Surgery</a></li>
+                                    <li><a class="dropdown-item" href="#">Urology</a></li>
+                                    <li><a class="dropdown-item" href="#">Dental Department</a></li>
+                                    <li><a class="dropdown-item" href="#">Department of Neuro</a></li>
+                                    <li><a class="dropdown-item" href="#">Burn & Plastic Surgery</a></li>
+                                    <li><a class="dropdown-item" href="#">Cardiac Surgery</a></li>
+                                    <li><a class="dropdown-item" href="#">Department Of Eye</a></li>
+                                    <li><a class="dropdown-item" href="#">Department Of Psychology</a></li>
+                                    <li><a class="dropdown-item" href="#">Skin and Venereology</a></li>
+                                    <li><a class="dropdown-item" href="#">Department of ENT(Nose Ear Throat)</a></li>     
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button">
+                                    Publications<i class="fa fa-sort-desc" ></i>
+                                </a>  
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button">
+									প্রকাশনা<i class="fa fa-sort-desc" ></i>
+                                </a>        
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">Health Bulletin</a></li>
+                                    <li><a class="dropdown-item" href="#">Annual Report</a></li>
+                                    <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                                    <li><a class="dropdown-item" href="#">National Health Research and Strategy</a></li>
+                                    <li><a class="dropdown-item" href="#">Research and strategies for the disabled</a></li>
+                                </ul>
+                            </li> 
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button"> 
+                                   Research<i class="fa fa-sort-desc" ></i>      
+                                </a>
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button"
+                                 aria-expanded="false"> 
+									গবেষণা<i class="fa fa-sort-desc" ></i>      
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">List of Researches</a></li>
+                                    <li><a class="dropdown-item" href="#">Research Project</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button"
+                                     aria-expanded="false"> 
+                                   Admission<i class="fa fa-sort-desc" ></i>       
+                                </a> 
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button"
+                                 aria-expanded="false"> 
+									এডমিশন<i class="fa fa-sort-desc" ></i>       
+                                 </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">User fee</a></li>
+                                    <li><a class="dropdown-item" href="#">Location Chart</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button"
+                                aria-expanded="false"> 
+                                About<i class="fa fa-sort-desc" ></i>
+                                </a>
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button"
+                                 aria-expanded="false"> 
+									আমাদের সম্পর্কে<i class="fa fa-sort-desc" ></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">CMCH at a glance</a></li>
+                                    <li><a class="dropdown-item" href="#">Administrative Organogram</a></li>
+                                    <li><a class="dropdown-item" href="#">Board of Directors</a></li>
+                                    <li><a class="dropdown-item" href="#">Deputy Directors</a></li>
+                                    <li><a class="dropdown-item" href="#">Administrative officers</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button"
+                                aria-expanded="false"> 
+                                 Notice<i class="fa fa-sort-desc" ></i>       
+                                </a> 
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button"
+                                 aria-expanded="false"> 
+									নোটিশ<i class="fa fa-sort-desc" ></i>       
+									</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">Tender notice</a></li>
+                                    <li><a class="dropdown-item" href="#">Office notice</a></li>
+                                    <li><a class="dropdown-item" href="#">News & Events</a></li>
+                                </ul>
+                            </li>
+    
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button"
+                                    aria-expanded="false"> 
+                                   Gallary<i class="fa fa-sort-desc" ></i>       
+                                </a>
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button"
+                                     aria-expanded="false"> 
+										গ্যালারি<i class="fa fa-sort-desc" ></i>       
+                                 </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">Photo Gallary</a></li>
+                                    <li><a class="dropdown-item" href="#">Video Gallary</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link en" href="#" id="navbarDropdown" role="button"
+                                     aria-expanded="false"> 
+                                   Others<i class="fa fa-sort-desc" ></i>       
+                                </a>
+                                <a class="nav-link bn" href="#" id="navbarDropdown" role="button"
+                                     aria-expanded="false"> 
+										অন্যান্য<i class="fa fa-sort-desc" ></i>       
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"  href="#">Go</a></li>
+                                    <li><a class="dropdown-item" href="#">Budget</a></li>
+                                    <li><a class="dropdown-item" href="#">Without the heirloom</a></li>
+                                    <li><a class="dropdown-item" href="#">NOC</a></li>
+                                    <li><a class="dropdown-item" href="#">First aid</a></li>
+                                    <li><a class="dropdown-item" href="#">Career</a></li>
+                                    <li><a class="dropdown-item" href="#">Facebook Corner</a></li>
+
+                                </ul>
+                            </li>
+    
+       
+                        </ul>
+                    </div>
+                    
+                </div>
+                <hr>
+            </nav> 
+    
+        </div>
+
+    </header>
+    <!-- header section end  -->
+
+    
+
+    <div class="ticker-wrapper">
+        <div class="ticker container">
+            <div class="ticker__item"><strong>Breaking News: </strong> Market hits all-time high!</div>
+            <div class="ticker__item"><strong>Sports: </strong>  Local team wins championship!</div>
+            <div class="ticker__item"><strong>Weather: </strong> Sunny skies expected all week.</div>
+            <div class="ticker__item"><strong>Technology: </strong>New smartphone model released today.</div>
+            <div class="ticker__item"><strong>Health: </strong> Tips for a healthier lifestyle.</div>
+        </div>
+    </div>
+
+
+    <!-- <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/bg6.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/bg1.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider8.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider4.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider6.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider10.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider9.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider2.png" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>  -->
+    
+    <!-- Swiper -->
+  <!-- <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/bg1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/bg2.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/bg3.png" alt="">
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div> -->
+
+
+
+<!-- bootstrap carussol section start -->
+<div id="carouselExampleCaptions" class="carousel slide">
+
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="img/cmch.jpeg" class="d-block w-100" alt="...">
+    </div>
+	
+    <div class="carousel-item ">
+        <img src="img/cmch1.jpeg"d-block w-100" alt="..."> 
+		 <!--
+		 <div class="carousel-caption right">
+            <h5 class="my-4 px-3" data-key="description" id="description"></h5>
+            <p class="card-text px-3" data-key="pre" id="pre"></p>  
+        </div> --->
+    </div>
+
+    <div class="carousel-item ">
+        <img src="img/cmch2.jpeg" class="d-block w-100" alt="...">
+		  <!--
+		 <div class="carousel-caption right">
+            <h5 class="my-4 px-3" data-key="description" id="description"></h5>
+            <p class="card-text px-3" data-key="pre" id="pre"></p>  
+        </div> --->
+    </div>
+
+    <div class="carousel-item ">
+        <img src="img/cmch3.jpeg" class="d-block w-100" alt="...">
+		 <!--
+		 <div class="carousel-caption right">
+            <h5 class="my-4 px-3" data-key="description" id="description"></h5>
+            <p class="card-text px-3" data-key="pre" id="pre"></p>  
+        </div> --->
+    </div>
+
+    <div class="carousel-item ">
+        <img src="img/cmch4.jpeg" class="d-block w-100" alt="...">
+    </div>
+
+
+    <div class="carousel-item ">
+        <img src="img/cmch5.jpeg" class="d-block w-100" alt="...">
+    </div>
+
+
+    <div class="carousel-item ">
+        <img src="img/cmch6.jpeg" class="d-block w-100" alt="..."> 
+    </div>
+
+
+
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div> 
+
+
+    <br><br>
+
+
+<!-- service section start  -->
+
+<section id="services" class="container services">
+
+    <!-- <h1 class="heading"><span>Services</span></h1> -->
+
+
+        <div class="row">
+
+            <!-- service section left start  -->
+            <div class="col-lg-9 col-lg-9 left-col">
+                <div class="row">
+
+                    <div class=" col-md-4 col-sm-12">
+                        <div class="content">
+                            <img  src="img/gono.png"  alt="Card image cap">
+                            <div class="content-body">
+                                <h4 class="en">Notice Board</h4>
+                                 <h4 class="bn">নোটিশ বোর্ড</h4>
+                                 <ul>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Tender notice</a></li>
+                                    <li class="en"><a  href=""><i class="fa fa-asterisk" ></i> Office notice</a></li>
+                                    <li class="en"><a  href=""><i class="fa fa-asterisk" ></i> News & Events</a></li>    
+                                    <li class="bn"><a  href=""><i class="fa fa-asterisk" ></i> টেন্ডার নোটিশ</a></li>
+                                    <li class="bn"><a  href=""><i class="fa fa-asterisk" ></i> অফিস নোটিশ</a></li>
+                                    <li class="bn"><a  href=""><i class="fa fa-asterisk" ></i> নিউজ এবং ইভেন্ট</a></li> 
+                                    <li class="en"><a  href=""><i class="fa fa-asterisk" ></i> Office notice</a></li>
+                                    <li class="en"><a  href=""><i class="fa fa-asterisk" ></i> News & Events</a></li>    
+                                    <li class="bn"><a  href=""><i class="fa fa-asterisk" ></i> অফিস নোটিশ</a></li>
+                                    <li class="bn"><a  href=""><i class="fa fa-asterisk" ></i> নিউজ এবং ইভেন্ট</a></li> 									
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-4 col-sm-12">
+                        <div class="content">
+                            <img  src="img/we.png"  alt="Card image cap">
+                            <div class="content-body">
+                                <h4 class="en">Health</h4>
+                                <h4 class="bn">স্বাস্থ সেবা</h4>
+                                 <ul>
+                                    <li class="en"><a href="" ><i class="fa fa-asterisk" ></i> Wards</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Therapy Center</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Child Development</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> HIB Center</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Others</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> ওয়ার্ড সমূহ</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> থেরাপী সেন্টার</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> চাইল্ড ডেভেলপমেন্ট</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> এইচ আই ভি সেন্টার</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> অন্যান্য</a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-4 col-sm-12">
+                        <div class="content">
+                            <img  src="img/info.png"  alt="Card image cap">
+                            
+                            <div class="content-body">
+                                <h4 class="en">About Us</h4>
+                                <h4 class="bn">আমাদের সম্পর্কে</h4>
+                                 <ul>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> CMCH at a glance</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Administrative Organogram</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Board of Directors</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Deputy Directors</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Administrative officers</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> এক নজরে চমেক হাসপাতাল</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> প্রশাসনিক ওর্গানোগ্রাম</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> পরিচালক বৃন্দ</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> উপ-পরিচালক বৃন্দ</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> প্রশাসনিক কর্মকর্তাবৃন্দ</a></li>
+
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+					
+                    <div class=" col-md-4 col-sm-12">
+                        <div class="content">
+                            <img  src="img/gono.png"  alt="Card image cap">
+                            <div class="content-body">
+                                <h4 class="en">Admission</h4>
+                                <h4 class="bn">এডমিশন</h4>
+                                <ul>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> User Fee</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Location chart</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> ইউজার ফি</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> লোকেশন চার্ট</a></li>
+									<li class="en"><a href=""><i class="fa fa-asterisk" ></i> User Fee</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Location chart</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> ইউজার ফি</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> লোকেশন চার্ট</a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+				
+					
+					<div class=" col-md-4 col-sm-12">
+                        <div class="content">
+                            <img  src="img/inno.jpg"  alt="Card image cap">
+                            <div class="content-body">
+                                <h4 class="en">Research</h4>
+                                <h4 class="bn">গবেষণা</h4>
+                                 <ul>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> List of Researches</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Research Project</a></li>
+									<li class="en"><a href=""><i class="fa fa-asterisk" ></i> List of Researches</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Research Project</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার তালিকা</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার প্রজেক্ট</a></li>
+									<li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার তালিকা</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার প্রজেক্ট</a></li>
+                         
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+					<div class=" col-md-4 col-sm-12">
+                        <div class="content">
+                            <img  src="img/gono.png"  alt="Card image cap">
+                            <div class="content-body">
+                                <h4 class="en">Others</h4>
+                                <ul>
+                                    <li><a href=""><i class="fa fa-asterisk" ></i> Budget</a></li>
+                                    <li><a href=""><i class="fa fa-asterisk" ></i>Carrer</a></li>
+                                    <li><a href=""><i class="fa fa-asterisk" ></i> Without the heirloom</a></li>
+                                    <li><a href=""><i class="fa fa-asterisk" ></i> Facebook Corner</a></li>
+                                  
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                  
+				  	<div class=" col-md-6 col-sm-12">
+                        <div class="content">
+                            <img  src="img/dona.png"  alt="Card image cap">
+                            <div class="content-body">
+                                <h4 class="en">Publication</h4>
+                                <h4 class="bn">প্রকাশনা</h4>
+                                 <ul>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Health Bulletin </a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Annual Report</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Newsletter</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> National Health Research & Strategy</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Other publications</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Research and strategies for the disabled</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> হেলথ বুলেটিন </a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> বার্ষিক প্রতিবেদন</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> নিউজ লেটার</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> জাতীয় স্বাস্থ্য গবেষণা ও কৌশল</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> অন্যান্য প্রকাশনা</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> প্রতিবন্ধীদের জন্য গবেষনা ও কৌশল</a></li>      
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+					
+					<div class=" col-md-4 col-sm-12">
+                        <div class="content">
+                            <img  src="img/inno.jpg"  alt="Card image cap">
+                            <div class="content-body">
+                                <h4 class="en">Notice</h4>
+                                <h4 class="bn">নোটিশ</h4>
+                                 <ul>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Tender notice</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Research Project</a></li>
+									<li class="en"><a href=""><i class="fa fa-asterisk" ></i> Office notice</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> News & Events</a></li>
+									<li class="en"><a href=""><i class="fa fa-asterisk" ></i> Tender notice</a></li>
+                                    <li class="en"><a href=""><i class="fa fa-asterisk" ></i> Research Project</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার তালিকা</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার প্রজেক্ট</a></li>
+									<li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার তালিকা</a></li>
+                                    <li class="bn"><a href=""><i class="fa fa-asterisk" ></i> গবেষনার প্রজেক্ট</a></li>
+                         
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+					
+                </div>
+            </div>
+            <!-- service section left end  -->
+
+
+            <!-- service section right start  -->
+            <div class="col-lg-3 col-md-3 right-col">
+       
+                <div class="content">
+                    <div class="header en">Director</div>
+                    <div class="header bn">পরিচালক</div>
+                    <img  src="img/toslim.png"  alt="Card image cap">
+                    <div class="body">
+                        <h4>Brigadier General Md.Taslim M.P.H</h4>
+						 <p><strong>Phone: </strong> +8802333360179 </p> 			
+                        <p><strong>Email: </strong>cmch@hospi.dghs.gov.bd</p>
+                    </div>
+                </div> 
+					
+				<div class="content">
+						<div class="header en">Deputy Director</div>
+						<div class="header bn">উপ - পরিচালক</div>
+						<img  src="img/doctor.png"  alt="Card image cap">
+						<div class="body">
+							<h4>Name</h4>
+							 <p><strong>Phone: </strong> +8802333360179 </p> 			
+							<p><strong>Email: </strong>cmch@hospi.dghs.gov.bd</p>
+						</div>
+					</div>  				
+				</div>
+			
+            <!-- service section right end  -->
+
+
+        </div>
+
+</section>
+<!-- service section end  -->
+<br>
+
+  
+
+
+    
+<!-- gallary section start  -->
+<div class="container gallary" id="gallary">
+
+    <!-- <h1 class="heading"><span>Our Gallary</span></h1> -->
+
+    <div class="row">
+
+        <div class="col-md-8">
+            <div class="slider">
+                <div><img src="img/cmch6.jpeg" alt="Image 3"><div class="title">Welcome to CMC Hospital</div></div>
+                <div><img src="img/cmch5.jpeg" alt="Image 3"><div class="title">Welcome to CMC Hospital</div></div>
+                <div><img src="img/cmch4.jpeg" alt="Image 3"><div class="title">Welcome to CMC Hospital</div></div>
+                <div><img src="img/cmch3.jpeg" alt="Image 3"><div class="title">Welcome to CMC Hospital</div></div>
+                <div><img src="img/cmch2.jpeg" alt="Image 3"><div class="title">Welcome to CMC Hospital</div></div>
+                <div><img src="img/cmch1.jpeg" alt="Image 2"><div class="title">Welcome to CMC Hospital</div></div>
+                <div><img src="img/cmch.jpeg" alt="Image 1"><div class="title">Welcome to CMC Hospital</div></div>
+            </div>
+        </div>
+
+        <div class=" col-md-4">
+            <div class="row col-right">
+                <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/gh4.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/gh5.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/gh6.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/gh7.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/gh8.png" alt="">
+                </div>
+				
+				 <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/sg2.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/sg1.png" alt="">
+                </div>
+				
+				 <div class="col-sm-6 col-md-6 card-col-1 mb-2">
+                    <img src="img/sg3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- gallary section end  -->
+<br>
+
+
+
+
+<section id="video" class="container video">
+
+    <div class="row">
+        <div class="slider2">
+
+            <div class="col-md-3 col-sm-12 mx-2 my-1">
+                <iframe  src="https://youtube.com/embed/yWKKxn3z4g0">
+                </iframe>
+            </div>
+
+            <div class="col-md-3 col-sm-12 mx-2 my-1">
+                <iframe  src="https://www.youtube.com/embed/I18rlU7ESYU">
+                </iframe>
+            </div>
+
+            <div class="col-md-3 col-sm-12 mx-2 my-1">
+                <iframe  src="https://www.youtube.com/embed/PlXuShXknr8">
+                </iframe>
+            </div>
+
+            <div class="col-md-3 col-sm-12 mx-2 my-1">
+                <iframe  src="https://www.youtube.com/embed/F0nafUHPsSQ">
+                </iframe>
+            </div>
+
+            <div class="col-md-3 col-sm-12 my-1 mx-2">
+                <iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                </iframe>
+            </div>
+
+            <div class="col-md-3 col-sm-12 my-1 mx-2">
+                <iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                </iframe>
+            </div>
+
+            <div class="col-md-3 col-sm-12 my-1 mx-2">
+                <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                </iframe>
+            </div>
+        </div>
+    <div>
+      
+
+</section>
+
+<br>
+
+
+    <!-- Doctors section start  -->
+    <!-- <div id="doctor" class="container doctor">
+        <h1 class="heading"><span>Our Doctors</span></h1>
+
+        <div class="slider-3">
+
+            <div class="row">
+
+                <div class=" col-md-4 col-sm-12">
+                    <div class="content">
+                        <img class="content-img-top" src="img/d1.png" alt="Card image cap">
+                        
+                        <div class="content-body">
+                            <h4>Dr. Md. Kamrul Hasan</h4>
+                            <h5>MBBS, MD (Clinical Hematology), Fellowship in Pediatric BMT (Tehran)</h5>
+                            <p>Hematology, Blood Cancer & BMT Specialist</p>
+                            <p>Associate Professor, Department of Hematology</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 col-sm-12">
+                    <div class="content">
+                        <img class="content-img-top" src="img/d2.png" alt="Card image cap">
+                        <div class="content-body">
+                            <h4>Prof. Dr. Jashim Uddin</h4>
+                            <h5>MBBS (DMC), FCPS (MEDICINE)</h5>
+                            <p>Medicine (All Diseases of Adults) Specialist</p>
+                            <p>Professor, Medicine</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 col-sm-12">
+                    <div class="content">
+                        <img class="content-img-top" src="img/d3.png" alt="Card image cap">
+                        <div class="content-body">
+                            <h4>Dr. Salahuddin Mohammed Ali Haider</h4>
+                            <h5>MBBS, FCPS (Medicine), MD (Gastroenterology), FRCP (Glasg)</h5>
+                            <p>Gastroenterology & Liver Diseases Specialist</p>
+                            <p>Associate Professor, Gastroenterology</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 col-sm-12">
+                    <div class="content">
+                        <img class="content-img-top" src="img/d4.png" alt="Card image cap">
+                        <div class="content-body">
+                            <h4>Dr. Md. Abdur Rob</h4>
+                            <h5>MBBS, BCS (Health), FCPS (Medicine)</h5>
+                            <p>Medicine Specialist</p>
+                            <p>Associate Professor, Medicine</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 col-sm-12">
+                    <div class="content">
+                        <img class="content-img-top" src="img/d5.png" alt="Card image cap">
+                        <div class="content-body">
+                            <h4>Dr. Mir Habibur Rahman</h4>
+                            <h5>BSc, BDS (Dhaka)</h5>
+                            <p>Oral & Dental Surgeon with Special Interest on Third Molar Surgery, Root Canal Treatment
+                            </p>
+                            <p>Former Head, Dental & Maxillofacial Surgery</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" col-md-4 col-sm-12">
+                    <div class="content">
+                        <img class="content-img-top" src="img/d6.png" alt="Card image cap">
+                        <div class="content-body">
+                            <h4>Dr. Palash Nag</h4>
+                            <h5>MBBS (CMC), BCS (Health), FCPS (Physical Medicine), CCD (Diabetology)</h5>
+                            <p>Pain, Arthritis, Diabetes, Neuromedicine & Joint Specialist</p>
+                            <p>Consultant, Physical Medicine & Rehabilitation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="content">
+                        <img class="content-img-top" src="img/d7.png" alt="Card image cap">
+                        <div class="content-body">
+                            <h4>Dr. Tuhin Shuvra Das</h4>
+                            <h5>MBBS (CMC), MD (Nephrology, BSMMU), CCD (BIRDEM), BCS (Health)</h5>
+                            <p>Kidney Diseases & Diabetes Specialist</p>
+                            <p>Emergency Medical Officer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> -->
+    <!-- Doctors section end  -->
+
+
+  <!-----footer section strat---->
+
+<section roal="main" class="bd-footer py-3 ">
+    <div class="container ">
+        <div class="row">
+
+            <div class="col-lg-3 ">
+                <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                    aria-label="Bootstrap">
+                    <img src="img/logo.png" width="50px" height="50px" alt="">
+                </a>
+                <ul class="list-unstyled small text-muted">
+                    <li class="mb-2">Designed and built with all the love in the world by the <a
+                            href="/docs/5.0/about/team/">R-creation</a> with the help of <a href="">our
+                            contributors</a>.</li>
+                    <li class="mb-2">Code licensed <a href="" target="_blank" rel="license noopener">MIT</a>, docs
+                        <a href="" target="_blank" rel="license noopener">CC BY 3.0</a>.
+                    </li>
+                    <li class="mb-2">Currently v1.0</li>
+                    <li class="mb-2">Developed by <a href="" target="_blank" rel="noopener">R-creation</a>.</li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-3 offset-lg-1 ">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Home</a></li>
+                    <li class="mb-2"><a href="">Contact Us</a></li>
+                    <li class="mb-2"><a href="">About Us</a></li>
+                    <li class="mb-2"><a href="" >Documents</a></li>
+                    <li class="mb-2"><a href="#gallary">Gallary</a></li>
+                    <li class="mb-2"><a href="">Others</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <h5>Guides</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="">Therapy Center</a></li>
+                    <li class="mb-2"><a href="">HIB Center</a></li>
+                    <li class="mb-2"><a href="">Child Development</a></li>
+                    <li class="mb-2"><a href="">Wards</a></li>
+					<li class="mb-2"><a href="">Health Bulletin</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>Community</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="https://www.facebook.com/watch/?v=670638506454255">Facebook</a></li>
+                    <li class="mb-2"><a href="https://cmch.gov.bd">Website</a></li>
+                    <li class="mb-2"><a href="https://twitter.com">Twitter</a></li>
+                    <li class="mb-2"><a href="https://youtube.com">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----footer section end---->
+
+<footer class="footer text-center py-3">
+    <div class="container">
+        <span>Copyright&#169;2024 <font color="#fff"><b>CMCH</b></font> All Right Reserved.</span>
+    </div>
+</footer>
+
+
+
+
+    <!-- javascript section  -->
+
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- javascript code  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script src="script.js"></script>
+
+    
+    <script>
+
+        function toggleContent() {
+            var bn = document.getElementsByClassName('bn');
+            var en = document.getElementsByClassName('en');
+            var button = document.getElementsByClassName('toggleButton')[0]; // Assuming one button
+
+            // Toggle visibility for each 'bn' element
+            for (var i = 0; i < bn.length; i++) {
+                if (bn[i].style.display === 'none' || bn[i].style.display === '') {
+                    bn[i].style.display = 'block';
+                } else {
+                    bn[i].style.display = 'none';
+                }
+            }
+
+            // Toggle visibility for each 'en' element
+            for (var i = 0; i < en.length; i++) {
+                if (en[i].style.display === 'block' || en[i].style.display === '') {
+                    en[i].style.display = 'none';
+                } else {
+                    en[i].style.display = 'block';
+                }
+            }
+
+            // Update button text
+            if (bn[0].style.display === 'none') {
+                button.textContent = 'Bangla';
+            } else {
+                button.textContent = 'English';
+            }
+        }
+
+        // var swiper = new Swiper(".mySwiper", {
+        //       spaceBetween: 30,
+        //       centeredSlides: true,
+        //       autoplay: {
+        //         delay: 2500,
+        //         disableOnInteraction: false,
+        //       },
+        //       pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true,
+        //       },
+        //       navigation: {
+        //         nextEl: ".swiper-button-next",
+        //         prevEl: ".swiper-button-prev",
+        //       },
+        //     });
+
+
+            //  var swiper = new Swiper(".mySwiper", {
+            //         effect: "coverflow",
+            //         grabCursor: true,
+            //         centeredSlides: true,
+            //         slidesPerView: "auto",
+            //         coverflowEffect: {
+            //         rotate: 50,
+            //         stretch: 0,
+            //         depth: 100,
+            //         modifier: 1,
+            //         slideShadows: true,
+            //         },
+            //         pagination: {
+            //         el: ".swiper-pagination",
+            //         },
+            //      });
+
+
+        $(document).ready(function () {
+
+            $('.slider').slick({
+                // dots: true,
+                // centerMode: true,       // Show navigation dots
+                infinite: true,   // Infinite looping
+                speed: 200,       // Transition speed
+                slidesToShow: 1,  // Number of slides to show at a time
+                adaptiveHeight: true // Adjust slider height automatically
+            });
+
+            $('.slider2').slick({
+                // dots: true,
+                infinite: true,
+                speed: 200,
+                slidesToShow: 4,
+                // slidesToScroll: 4,
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+                });
+
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
